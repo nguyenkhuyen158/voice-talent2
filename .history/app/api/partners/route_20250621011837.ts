@@ -1,19 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server';
-import clientPromise from '@/lib/mongodb';
+import fs from 'fs';
+import path from 'path';
 import { Partner } from '@/data/tmp/partners';
 
-// Helper function to get the collection
-async function getCollection() {
-  const client = await clientPromise;
-  const db = client.db();
-  return db.collection<Partner>('partners');
-}
+const partnersPath = path.join(process.cwd(), 'data', 'tmp', 'partners.json');
 
 export async function GET() {
   try {
-    const collection = await getCollection();
-    const partners = await collection.find().toArray();
-    return NextResponse.json({ partners });
+    const data = JSON.parse(fs.readFileSync(partnersPath, 'utf8'));
+    return NextResponse.json(data);
   } catch (error) {
     return NextResponse.json(
       { error: 'Failed to fetch partners' },
@@ -25,15 +20,15 @@ export async function GET() {
 export async function POST(req: NextRequest) {
   try {
     const { partner } = await req.json();
-    const collection = await getCollection();
+    const data = JSON.parse(fs.readFileSync(partnersPath, 'utf8'));
+    
     // Tạo ID mới
-    const max = await collection.find().sort({ id: -1 }).limit(1).toArray();
-    let newId = '1';
-    if (max.length > 0 && !isNaN(Number(max[0].id))) {
-      newId = (parseInt(max[0].id) + 1).toString();
-    }
-    const newPartner = { ...partner, id: newId };
-    await collection.insertOne(newPartner);
+    const maxId = Math.max(...data.partners.map((p: Partner) => parseInt(p.id)));
+    const newPartner = { ...partner, id: (maxId + 1).toString() };
+    
+    data.partners.push(newPartner);
+    fs.writeFileSync(partnersPath, JSON.stringify(data, null, 2));
+    
     return NextResponse.json({ success: true, partner: newPartner });
   } catch (error) {
     return NextResponse.json(
@@ -46,16 +41,20 @@ export async function POST(req: NextRequest) {
 export async function PUT(req: NextRequest) {
   try {
     const { partner, id } = await req.json();
-    const collection = await getCollection();
-    const result = await collection.updateOne({ id }, { $set: { ...partner, id } });
-    if (result.matchedCount === 0) {
+    const data = JSON.parse(fs.readFileSync(partnersPath, 'utf8'));
+    
+    const index = data.partners.findIndex((p: Partner) => p.id === id);
+    if (index === -1) {
       return NextResponse.json(
         { success: false, error: 'Partner not found' },
         { status: 404 }
       );
     }
-    const updated = await collection.findOne({ id });
-    return NextResponse.json({ success: true, partner: updated });
+    
+    data.partners[index] = { ...partner, id };
+    fs.writeFileSync(partnersPath, JSON.stringify(data, null, 2));
+    
+    return NextResponse.json({ success: true, partner: data.partners[index] });
   } catch (error) {
     return NextResponse.json(
       { success: false, error: 'Failed to update partner' },
@@ -67,14 +66,19 @@ export async function PUT(req: NextRequest) {
 export async function DELETE(req: NextRequest) {
   try {
     const { id } = await req.json();
-    const collection = await getCollection();
-    const result = await collection.deleteOne({ id });
-    if (result.deletedCount === 0) {
+    const data = JSON.parse(fs.readFileSync(partnersPath, 'utf8'));
+    
+    const index = data.partners.findIndex((p: Partner) => p.id === id);
+    if (index === -1) {
       return NextResponse.json(
         { success: false, error: 'Partner not found' },
         { status: 404 }
       );
     }
+    
+    data.partners.splice(index, 1);
+    fs.writeFileSync(partnersPath, JSON.stringify(data, null, 2));
+    
     return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json(

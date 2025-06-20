@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import clientPromise from '@/lib/mongodb';
 import { v4 as uuidv4 } from 'uuid';
-import type { ContactMessage } from '@/data/tmp/contact-messages';
+import type { ContactMessage } from '../../../data/tmp/contact-messages';
 import nodemailer from 'nodemailer';
 
 // Helper function to get the collection
