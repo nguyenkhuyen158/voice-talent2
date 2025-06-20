@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "photo": "/avatar/avatar.jpg",
+    "title": {
+      "line1": "Giọng nói của bạn",
+      "line2": "Thương hiệu của tôi"
+    },
+    "description": "Mang đến giọng nói chuyên nghiệp cho dự án của bạn với hơn 10 năm kinh nghiệm trong lĩnh vực lồng tiếng",
+    "buttons": {
+      "demo": {
+        "text": "Nghe Demo",
+        "icon": "PlayCircleIcon"
+      },
+      "contact": {
+        "text": "Liên Hệ Ngay",
+        "icon": "EnvelopeIcon"
+      }
+    }
+  }
+}

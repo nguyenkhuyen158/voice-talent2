@@ -1,0 +1,34 @@
+{
+  "visits": [
+    {
+      "timestamp": "2025-06-19T07:01:26.350Z",
+      "page": "/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0",
+      "ip": "unknown",
+      "sessionId": "unknown"
+    },
+    {
+      "timestamp": "2025-06-19T07:03:09.399Z",
+      "page": "/",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+      "ip": "unknown",
+      "sessionId": "unknown"
+    }
+  ],
+  "dailyStats": [
+    {
+      "date": "2025-06-20",
+      "visits": 10,
+      "uniqueVisits": 1,
+      "uniqueIPVisits": 1,
+      "uniqueSessionVisits": 1
+    },
+    {
+      "date": "2025-06-19",
+      "visits": 53,
+      "uniqueVisits": 2,
+      "uniqueIPVisits": 1,
+      "uniqueSessionVisits": 1
+    }
+  ]
+}
