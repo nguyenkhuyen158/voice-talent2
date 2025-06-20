@@ -1,0 +1,40 @@
+{
+  "messages": [
+    {
+      "id": "61e0b50c-d8ed-46b6-8e96-09006c818021",
+      "name": "Tập đoàn Electrolux",
+      "email": "eve.holt@reqres.in",
+      "message": "eeee",
+      "to": "nguyenkhuyen158@gmail.com",
+      "createdAt": "2025-06-19T06:51:40.945Z",
+      "isRead": false
+    },
+    {
+      "id": "86e08837-3df8-4d29-aa3b-e931181d69bc",
+      "name": "Tập đoàn Electrolux",
+      "email": "vtan.yk13@st.huemed-univ.edu.vn",
+      "message": "rrrrrrrrrrrrr",
+      "to": "nguyenkhuyen158@gmail.com",
+      "createdAt": "2025-06-19T07:04:10.595Z",
+      "isRead": true
+    },
+    {
+      "id": "96f56c32-fa23-479a-808c-cd7679a8b47c",
+      "name": "Vinamilk",
+      "email": "eve.holt@reqres.in",
+      "message": "ccccccccccccccccc",
+      "to": "nguyenkhuyen158@gmail.com",
+      "createdAt": "2025-06-19T07:05:55.312Z",
+      "isRead": true
+    },
+    {
+      "id": "e358b101-aa96-4290-810c-eac6ea092dd7",
+      "name": "Acecook Việt Nam",
+      "email": "admin@example.com",
+      "message": "eeeeeeeeeee",
+      "to": "tonhoaithuong94@gmail.com",
+      "createdAt": "2025-06-20T16:16:57.359Z",
+      "isRead": false
+    }
+  ]
+}

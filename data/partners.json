@@ -1,0 +1,60 @@
+{
+  "partners": [
+    {
+      "name": "Techcombank",
+      "description": "Ngân hàng Techcombank",
+      "category": "Ngân hàng tài chính",
+      "logo": "/logos/Techcombank_logo.png",
+      "id": "8"
+    },
+    {
+      "name": "Acecook Việt Nam",
+      "description": "Acecook Việt Nam",
+      "category": "Thực phẩm",
+      "logo": "/logos/Logo_Acecook.webp",
+      "id": "9"
+    },
+    {
+      "name": "Vinamilk",
+      "description": "Công ty Cổ phần Sữa Việt Nam (Vinamilk)",
+      "category": "Thực phẩm",
+      "logo": "/logos/logo-vinamilk.webp",
+      "id": "10"
+    },
+    {
+      "name": "Tập đoàn Electrolux",
+      "description": "Tập đoàn Electrolux",
+      "category": "Đồ điện tử",
+      "logo": "/logos/Electrolux_2015.png",
+      "id": "11"
+    },
+    {
+      "name": "Unilever",
+      "description": "Tập đoàn Unilever",
+      "category": "Hàng tiêu dùng",
+      "logo": "/logos/unilever-logo.png",
+      "id": "12"
+    },
+    {
+      "name": "OCB Bank",
+      "description": "Ngân hàng TMCP Phương Đông",
+      "category": "Ngân hàng tài chính",
+      "logo": "/logos/ocb-brandlogo.png",
+      "id": "13"
+    },
+    {
+      "name": "Tiktok",
+      "description": "Công ty ByteDance",
+      "category": "Hàng tiêu dùng",
+      "logo": "/logos/logo_tiktok.webp",
+      "id": "14"
+    },
+    {
+      "name": "Wipro Unza",
+      "description": "Công ty Wipro Unza",
+      "category": "Hàng tiêu dùng",
+      "logo": "/logos/Wipro-Logo-2023.jpg",
+      "id": "15"
+    }
+  ]
+}

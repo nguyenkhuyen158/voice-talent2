@@ -1,0 +1,22 @@
+{
+  "messages": [
+    {
+      "id": "1687148794596",
+      "name": "Techcombank",
+      "email": "nguyenkhuyen157@gmail.com",
+      "message": "xin chào", 
+      "to": "nguyenkhuyen158@gmail.com",
+      "createdAt": "2025-06-19T05:26:34.596Z",
+      "isRead": false
+    },
+    {
+      "id": "1687149216718", 
+      "name": "Techcombank",
+      "email": "nguyenkhuyen157@gmail.com",
+      "message": "chào",
+      "to": "nguyenkhuyen158@gmail.com",
+      "createdAt": "2025-06-19T05:33:36.718Z",
+      "isRead": false
+    }
+  ]
+}

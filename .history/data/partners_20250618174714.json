@@ -1,0 +1,32 @@
+{
+  "partners": [
+    {
+      "name": "Techcombank",
+      "description": "Ngân hàng Techcombank",
+      "category": "Thương mại điện tử",
+      "logo": "/logos/Techcombank_logo.png",
+      "id": "8"
+    },
+    {
+      "name": "Acecook Việt Nam",
+      "description": "Công Ty CP Acecook Việt Nam",
+      "category": "Đa ngành",
+      "logo": "/logos/Logo_Acecook.webp",
+      "id": "9"
+    },
+    {
+      "name": "Vinamilk",
+      "description": "Công ty Cổ phần Sữa Việt Nam (Vinamilk)",
+      "category": "Truyền thông",
+      "logo": "/logos/logo-vinamilk.webp",
+      "id": "10"
+    },
+    {
+      "name": "Tập đoàn Electrolux",
+      "description": "Tập đoàn Electrolux",
+      "category": "Thương mại điện tử",
+      "logo": "/logos/Electrolux_2015.png",
+      "id": "11"
+    }
+  ]
+}

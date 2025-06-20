@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "social": {
+      "facebook": {
+        "name": "Voice Talent",
+        "url": "https://www.facebook.com/your-page",
+        "icon": "/social/facebook.svg"
+      },
+      "zalo": {
+        "name": "0123.456.789",
+        "url": "https://zalo.me/0123456789",
+        "icon": "/social/zalo.svg"
+      },
+      "phone": {
+        "name": "0123.456.789",
+        "url": "tel:+84123456789",
+        "icon": "/social/phone.svg"
+      },
+      "email": {
+        "name": "contact@voicetalent.vn",
+        "url": "mailto:contact@voicetalent.vn",
+        "icon": "/social/email.svg"
+      }
+    },
+    "office": {
+      "address": {
+        "title": "Trụ sở chính",
+        "content": "123 Đường ABC, Phường XYZ\nQuận 1, TP. Hồ Chí Minh",
+        "icon": "/social/location.svg"
+      },
+      "workingHours": {
+        "title": "Giờ làm việc",
+        "content": "Thứ 2 - Thứ 6: 8:30 - 17:30\nThứ 7: 8:30 - 12:00",
+        "icon": "/social/clock.svg"
+      }
+    }
+  }
+}

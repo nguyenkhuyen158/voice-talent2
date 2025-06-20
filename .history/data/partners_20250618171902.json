@@ -1,0 +1,67 @@
+{
+  "partners": [
+    {
+      "id": "1",
+      "name": "VTV",
+      "description": "Đài Truyền hình Việt Nam",
+      "category": "Truyền thông",
+      "logo": "/logos/vtv.png"
+    },
+    {
+      "id": "2",
+      "name": "HTV",
+      "description": "Đài Truyền hình TP.HCM",
+      "category": "Truyền thông",
+      "logo": "/logos/htv.png"
+    },
+    {
+      "id": "3", 
+      "name": "Samsung",
+      "description": "Tập đoàn công nghệ đa quốc gia",
+      "category": "Công nghệ",
+      "logo": "/logos/samsung.png"
+    },
+    {
+      "id": "4",
+      "name": "VinGroup",
+      "description": "Tập đoàn đa ngành Việt Nam",
+      "category": "Đa ngành",
+      "logo": "/logos/vingroup.png"
+    },
+    {
+      "id": "5",
+      "name": "FPT",
+      "description": "Tập đoàn công nghệ FPT",
+      "category": "Công nghệ",
+      "logo": "/logos/fpt.png"
+    },
+    {
+      "id": "6",
+      "name": "Shopee",
+      "description": "Nền tảng thương mại điện tử",
+      "category": "Thương mại điện tử",
+      "logo": "/logos/shopee.png"
+    },
+    {
+      "id": "7",
+      "name": "Mobile Legends",
+      "description": "Game di động MOBA phổ biến",
+      "category": "Game",
+      "logo": "/logos/mobile-legends.png"
+    },
+    {
+      "id": "8",
+      "name": "Garena",
+      "description": "Nhà phát hành game hàng đầu",
+      "category": "Game",
+      "logo": "/logos/garena.png"
+    },
+    {
+      "id": "9",
+      "name": "Netflix Vietnam",
+      "description": "Dịch vụ xem video trực tuyến",
+      "category": "Giải trí",
+      "logo": "/logos/netflix.png"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "contact": {
+    "social": {
+      "facebook": {
+        "name": "Tôn Hoài Thương",
+        "url": "https://www.facebook.com/tonhoaithuong.94",
+        "icon": "/social/facebook.svg"
+      },
+      "zalo": {
+        "name": "Tôn Hoài Thương",
+        "url": "https://zalo.me/0989480608",
+        "icon": "/social/zalo.svg"
+      },
+      "phone": {
+        "name": "0989 480 608",
+        "url": "tel:+0989480608",
+        "icon": "/social/phone.svg"
+      },
+      "email": {
+        "name": "tonhoaithuong94@gmail.com",
+        "url": "mailto:tonhoaithuong94@gmail.com",
+        "icon": "/social/gmail.svg"
+      }
+    },
+    "office": {
+      "address": {
+        "title": "Trụ sở chính",
+        "content": "123 Đường ABC, Phường XYZ\nQuận 1, TP. Hồ Chí Minh",
+        "icon": "/social/location.svg"
+      },
+      "workingHours": {
+        "title": "Giờ làm việc",
+        "content": "Thứ 2 - Thứ 6: 8:30 - 17:30\nThứ 7: 8:30 - 12:00",
+        "icon": "/social/clock.svg"
+      }
+    }
+  }
+}

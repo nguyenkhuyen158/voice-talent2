@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": "voice-recording",
+      "title": "Thu âm chuyên nghiệp",
+      "description": "Dịch vụ thu âm chất lượng cao với trang thiết bị hiện đại và đội ngũ kỹ thuật chuyên nghiệp",
+      "icon": "/icons/micro-svgrepo-com.svg",
+      "features": [
+        "Studio đạt chuẩn quốc tế",
+        "Thiết bị thu âm cao cấp",
+        "Đội ngũ kỹ thuật viên giàu kinh nghiệm",
+        "Chỉnh sửa âm thanh chuyên nghiệp"
+      ]
+    },
+    {
+      "id": "voice-over",
+      "title": "Lồng tiếng",
+      "description": "Dịch vụ lồng tiếng đa dạng cho TVC, phim, hoạt hình và các sản phẩm đa phương tiện",
+      "icon": "/icons/voice-access-svgrepo-com.svg",
+      "features": [
+        "Đội ngũ voice talent đa dạng",
+        "Phù hợp nhiều thể loại nội dung",
+        "Tư vấn chọn giọng đọc",
+        "Chỉnh sửa theo yêu cầu"
+      ]
+    },
+    {
+      "id": "translation",
+      "title": "Dịch thuật",
+      "description": "Dịch thuật chuyên nghiệp với đội ngũ biên dịch giàu kinh nghiệm trong nhiều lĩnh vực",
+      "icon": "/icons/translate-you-svgrepo-com.svg",
+      "features": [
+        "Dịch thuật đa ngôn ngữ",
+        "Biên dịch viên chuyên ngành",
+        "Hiệu đính kỹ lưỡng",
+        "Đảm bảo chất lượng"
+      ]
+    }
+  ]
+}

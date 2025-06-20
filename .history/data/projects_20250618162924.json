@@ -1,0 +1,109 @@
+{
+  "partners": [
+    {
+      "name": "VTV",
+      "description": "Đài Truyền hình Việt Nam",
+      "logo": "/partners/vtv.png",
+      "category": "Truyền thông"
+    },
+    {
+      "name": "HTV",
+      "description": "Đài Truyền hình TP.HCM",
+      "logo": "/partners/htv.png",
+      "category": "Truyền thông"
+    },
+    {
+      "name": "Samsung Vietnam",
+      "description": "Tập đoàn công nghệ hàng đầu",
+      "logo": "/partners/samsung.png",
+      "category": "Công nghệ"
+    },
+    {
+      "name": "VinGroup",
+      "description": "Tập đoàn đa ngành hàng đầu Việt Nam",
+      "logo": "/partners/vingroup.png",
+      "category": "Đa ngành"
+    },
+    {
+      "name": "FPT Corporation",
+      "description": "Tập đoàn công nghệ FPT",
+      "logo": "/partners/fpt.png",
+      "category": "Công nghệ"
+    },
+    {
+      "name": "Shopee",
+      "description": "Nền tảng thương mại điện tử hàng đầu",
+      "logo": "/partners/shopee.png",
+      "category": "E-commerce"
+    },
+    {
+      "name": "Mobile Legends",
+      "description": "Game di động phổ biến toàn cầu",
+      "logo": "/partners/mobile-legends.png",
+      "category": "Game"
+    },
+    {
+      "name": "Garena",
+      "description": "Nhà phát hành game hàng đầu Đông Nam Á",
+      "logo": "/partners/garena.png",
+      "category": "Game"
+    },
+    {
+      "name": "Netflix Vietnam",
+      "description": "Nền tảng giải trí trực tuyến",
+      "logo": "/partners/netflix.png",
+      "category": "Giải trí"
+    }
+  ],
+  "projects": [
+    {
+      "title": "TVC Samsung Galaxy S25",
+      "type": "Quảng cáo",
+      "year": "2025",
+      "url": "https://drive.google.com/file/d/1oP6nlaWb705viYYlaDXOLvgzwtyASnkv/view?usp=sharing",
+      "voice": "north",
+      "category": "Đồ điện tử"
+    },
+    {
+      "title": "Quảng cáo Vinamilk",
+      "type": "TVC Quảng cáo",
+      "year": "2024",
+      "url": "https://drive.google.com/file/d/1-Njo70EK4sa7Rd-HvhlQck0Qz7L6mcFT/view?usp=sharing",
+      "voice": "south",
+      "category": "Thực phẩm"
+    },
+    {
+      "title": "Video đào tạo VinFast",
+      "type": "Video đào tạo",
+      "year": "2024",
+      "url": "https://drive.google.com/file/d/1w4oPFAs_Q8KlzskAlwbiv2pX2uDgFk7M/view?usp=sharing",
+      "voice": "north",
+      "category": "Đồ điện tử"
+    },
+    {
+      "title": "TVC Techcombank",
+      "type": "Quảng cáo",
+      "year": "2024",
+      "url": "https://drive.google.com/file/d/1KVFOEJ9M3D_lpI4xaiOyytJ1GGNxak62/view?usp=sharing",
+      "voice": "north",
+      "category": "Ngân hàng tài chính"
+    },
+    {
+      "title": "Game Mobile Legends",
+      "type": "Lồng tiếng game",
+      "year": "2023",
+      "url": "https://drive.google.com/file/d/1KVFOEJ9M3D_lpI4xaiOyytJ1GGNxak62/view?usp=sharing",
+      "voice": "south",
+      "category": "Game"
+    },
+    {
+      "title": "Bước chạy vì một Việt Nam Vượt trội - TVC TECHCOMBANK MARATHON",
+      "type": "TVC Quảng cáo",
+      "year": "2024",
+      "url": "https://drive.google.com/file/d/1XoJgf2riaU81ZI4YOaf3287i7piuqw6p/view?usp=sharing",
+      "voice": "south",
+      "category": "Ngân hàng tài chính"
+    }
+
+  ]
+}
